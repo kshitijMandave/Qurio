@@ -1,8 +1,13 @@
 import React from 'react'
+import Signup from './components/Signup'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <Navbar/>
+      <Signup/>
+    </div>
   )
 }
 
